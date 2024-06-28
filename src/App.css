@@ -1,0 +1,78 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.goods {
+    max-width: 700px;
+    padding: 40px;
+    background-color: orange;
+    width: 100%;
+    border-radius: 20px;
+    margin: 80px auto;
+}
+
+.goods__wrap {
+    position: relative;
+    min-height: 650px;
+    border-radius: 20px;
+    padding: 24px;
+    background-color: white;
+}
+
+.goods__title {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.goods__form {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.rs-input:focus, .rs-input:hover:not(:disabled) {
+    border-color: #272727;
+}
+
+.rs-input:focus {
+    outline: none;
+}
+
+.goods__btn {
+    background-color: #272727;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    min-width: max-content;
+}
+
+.goods__list {
+    width: 300px;
+    margin-top: 32px;
+    padding: 0;
+}
+
+.goods__listItem {
+    display: grid;
+    grid-template-columns: auto 50px;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+
+.goods__listItemRemove {
+    background-color: #fff;
+    border: 1px solid #e5e5ea;
+    border-radius: 10px;
+}
+
+.goods__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+}

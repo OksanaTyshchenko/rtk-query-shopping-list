@@ -1,0 +1,28 @@
+{
+  "goods": [
+    {
+      "id": "1",
+      "name": "sausage"
+    },
+    {
+      "id": "3",
+      "name": "milk"
+    },
+    {
+      "id": "2533",
+      "name": "yougurt"
+    },
+    {
+      "id": "9cd8",
+      "name": "cheese"
+    },
+    {
+      "id": "a8ea",
+      "name": "bread"
+    },
+    {
+      "id": "54c7",
+      "name": "flour"
+    }
+  ]
+}
