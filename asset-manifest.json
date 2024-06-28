@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rtk-query-shopping-list/static/css/main.c6f9c30b.css",
+    "main.js": "/rtk-query-shopping-list/static/js/main.6a1bf8ba.js",
+    "static/js/453.0ecb8691.chunk.js": "/rtk-query-shopping-list/static/js/453.0ecb8691.chunk.js",
+    "index.html": "/rtk-query-shopping-list/index.html",
+    "main.c6f9c30b.css.map": "/rtk-query-shopping-list/static/css/main.c6f9c30b.css.map",
+    "main.6a1bf8ba.js.map": "/rtk-query-shopping-list/static/js/main.6a1bf8ba.js.map",
+    "453.0ecb8691.chunk.js.map": "/rtk-query-shopping-list/static/js/453.0ecb8691.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6f9c30b.css",
+    "static/js/main.6a1bf8ba.js"
+  ]
+}
