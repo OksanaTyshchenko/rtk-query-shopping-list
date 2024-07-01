@@ -6,7 +6,7 @@ import {
   useDeleteProductMutation,
   useGetGoodsQuery,
 } from "./store";
-import { Button, Dropdown, Input } from "rsuite";
+import { Dropdown, Input } from "rsuite";
 
 function App() {
   const [count, setCount] = useState("");
@@ -75,7 +75,7 @@ function App() {
           ))}
         </ul>
 
-        <img src="/basket1.jpg" alt="basket" className="goods__img" />
+        <img src="/basket.jpg" alt="basket" className="goods__img" />
       </div>
     </div>
   );

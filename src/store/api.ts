@@ -26,15 +26,19 @@ export const goodsApi = createApi({
       invalidatesTags: [{ type: "Products", id: "LIST" }],
     }),
     deleteProduct: builder.mutation({
-        query: (id) => ({
-            url: `goods/${id}`,
-            method: "DELETE",
-        }),
-        invalidatesTags: [{ type: "Products", id: "LIST" }],
-    })
+      query: (id) => ({
+        url: `goods/${id}`,
+        method: "DELETE",
+      }),
+      invalidatesTags: [{ type: "Products", id: "LIST" }],
+    }),
   }),
 });
 
 // Export hooks for usage in functional components, which are
 // auto-generated based on the defined endpoints
-export const { useGetGoodsQuery, useAddProductMutation, useDeleteProductMutation } = goodsApi;
+export const {
+  useGetGoodsQuery,
+  useAddProductMutation,
+  useDeleteProductMutation,
+} = goodsApi;

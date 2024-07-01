@@ -1,6 +1,6 @@
 {
   "name": "rtk-query-app",
-  "homepage": "https://OksanaTyshchenko.github.io/rtk-query-shopping-list",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
