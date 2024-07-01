@@ -4,7 +4,10 @@ import { AddGoodRequestBody, Good } from "../types";
 // Define a service using a base URL and expected endpoints
 export const goodsApi = createApi({
   reducerPath: "goodsApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3001/" }),
+  baseQuery: fetchBaseQuery({
+    baseUrl:
+      "https://my-json-server.typicode.com/OksanaTyshchenko/rtk-query-shopping-list/",
+  }),
   tagTypes: ["Products"],
   endpoints: (builder) => ({
     getGoods: builder.query<Good[], string>({

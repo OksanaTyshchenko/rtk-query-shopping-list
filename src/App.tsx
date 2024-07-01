@@ -7,6 +7,7 @@ import {
   useGetGoodsQuery,
 } from "./store";
 import { Dropdown, Input } from "rsuite";
+import BasketPicture from "./img/basket.jpg";
 
 function App() {
   const [count, setCount] = useState("");
@@ -75,7 +76,7 @@ function App() {
           ))}
         </ul>
 
-        <img src="/basket.jpg" alt="basket" className="goods__img" />
+        <img src={BasketPicture} alt="basket" className="goods__img" />
       </div>
     </div>
   );
